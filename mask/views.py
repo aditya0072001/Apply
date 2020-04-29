@@ -6,7 +6,6 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 # Create your views here.
 
-
 def homepage(request):
         model = load_model('mask/mask.h5')
 
