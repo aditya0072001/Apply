@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'posinegavi.apps.PosinegaviConfig'
+    'posinegavi.apps.PosinegaviConfig',
+    'mask.apps.MaskConfig',
 ]
 
 MIDDLEWARE = [

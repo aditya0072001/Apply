@@ -19,5 +19,6 @@ from . import views
 urlpatterns = [
     path('',views.homepage),
     path('posinegavi/',include('posinegavi.urls')),
+    path('mask/',include('mask.urls')),
     path('admin/', admin.site.urls),
 ]
