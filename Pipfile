@@ -13,8 +13,9 @@ keras = "*"
 opencv-python = "*"
 pipenv = "*"
 gunicorn = "*"
-django-heroku ="*"
-libgl1-mesa-dev = "*"
+django-heroku = "*"
+matplotlib = "*"
+libgl1 = "*"
 
 [requires]
 python_version = "3.7"
