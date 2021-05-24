@@ -9,8 +9,8 @@ verify_ssl = true
 django = "*"
 numpy = "*"
 tensorflow-cpu = "*"
-keras = "==2.2.5"
-opencv-python = "==4.2.0.32"
+keras = "*"
+opencv-python = "*"
 pipenv = "*"
 
 [requires]
