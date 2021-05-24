@@ -8,12 +8,10 @@ verify_ssl = true
 [packages]
 django = "*"
 numpy = "*"
-pickle = "*"
-tensorflow = "*"
+tensorflow-cpu = "*"
 keras = "==2.2.5"
 opencv-python = "==4.2.0.32"
 pipenv = "*"
-pickle-mixin = "*"
 
 [requires]
 python_version = "3.7"
