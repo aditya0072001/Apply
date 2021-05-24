@@ -14,7 +14,7 @@ opencv-python = "*"
 pipenv = "*"
 gunicorn = "*"
 django-heroku ="*"
-libgl1-mesa-glx = "*"
+libgl1-mesa-dev = "*"
 
 [requires]
 python_version = "3.7"
